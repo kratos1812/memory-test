@@ -49,8 +49,10 @@ Total Bytes: 1176 bytes
 */
 
 /*
-Output deleting g_hTrie
+Output deleting/freeing g_hTrie
 test_suite.smx	
 Total handles: 3
 Total Bytes: 828 bytes
 */
+
+// Deleting the trie or clearing it(using StringMap.Clear() ) does *NOT* free the handles from it's entries
