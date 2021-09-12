@@ -24,7 +24,7 @@ public void OnPluginStart()
 }
 
 /*
-test_suite.smx	
+test1.smx	
 Total handles: 2.
 Total Bytes: 624 bytes
 */
